@@ -4,3 +4,8 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+
+const str = "aabra"
+
+console.log(str.length)

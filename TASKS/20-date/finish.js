@@ -4,3 +4,10 @@
  *
  * 2. Выведите значение в консоль
  */
+
+
+const date = new Date();
+
+const currTime = date.getTime()
+
+console.log(currTime)

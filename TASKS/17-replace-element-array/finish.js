@@ -8,3 +8,12 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+
+const arr = [1, true, "str"]
+
+console.log(arr)
+
+arr[1] = false
+
+console.log(arr)

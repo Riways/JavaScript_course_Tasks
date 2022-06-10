@@ -12,3 +12,12 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const str = "abbrra"
+
+console.log("Is str instance of String object?: " + (str instanceof String))
+console.log("Is type of str is string?: " + (typeof(str) === 'string'))
+
+const upperStr = str.toUpperCase()
+
+console.log(upperStr)
